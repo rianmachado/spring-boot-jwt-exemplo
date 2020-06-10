@@ -1,0 +1,26 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>br.com.pitang</groupId>
+		<artifactId>desafio-parent</artifactId>
+		<version>1.0</version>
+	</parent>
+
+	<artifactId>pitang-desafio-negocio</artifactId>
+	<name>Modulo de Negocio</name>
+
+
+	<dependencies>
+		<dependency>
+			<groupId>br.com.pitang</groupId>
+			<artifactId>pitang-desafio-model</artifactId>
+			<version>1.0</version>
+		</dependency>
+	</dependencies>
+
+
+</project>
